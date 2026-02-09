@@ -1,3 +1,14 @@
+def add():
+	print("\n" * 500)
+	print("you choose addition\n\n")
+	num1 = input("Please enter first number: ")
+	num2 = input("Please enter second number: ")
+	output = float(num1) + float(num2)
+	print("\n" * 500)
+	print(f"Your answer is {num1} + {num2} = {output}")
+	input("\nPress Enter to continue...")
+
+
 while True:
 	print("\n" * 500)
 	print("=========SIMPLE CALCULATOR PROGRAM=========\n")
@@ -29,3 +40,7 @@ while True:
 		result = num1 * num2
 		print(f"The result of {num1} * {num2} is: {result}")
 		input("\nPress Enter to continue...")
+
+	if option == "1":
+		add()
+    
