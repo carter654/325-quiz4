@@ -42,5 +42,5 @@ while True:
 		input("\nPress Enter to continue...")
 
 	if option == "1":
-		add()
+		my_add()
     
