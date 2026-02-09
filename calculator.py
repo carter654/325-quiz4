@@ -9,6 +9,7 @@ def add():
 	input("\nPress Enter to continue...")
 
 
+
 while True:
 	print("\n" * 500)
 	print("=========SIMPLE CALCULATOR PROGRAM=========\n")
@@ -22,23 +23,24 @@ while True:
 	if option == "0":
 		print("\n" * 500)
 		exit(0)
+	
+	if option == "2":
+		print("\n" * 500)
+		print("=========SUBTRACTION=========\n")
+		num1 = float(input("Enter the first number: "))
+		num2 = float(input("Enter the second number: "))
+		result = num1 - num2
+		print(f"The result of {num1} - {num2} is: {result}")
+		input("\nPress Enter to continue...")
 
+	if option == "3":
+		print("\n" * 500)
+		print("=========MULTIPLICATION=========\n")
+		num1 = float(input("Enter the first number: "))
+		num2 = float(input("Enter the second number: "))
+		result = num1 * num2
+		print(f"The result of {num1} * {num2} is: {result}")
+		input("\nPress Enter to continue...")
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-	elif option == "1":
+	if option == "1":
 		add()
