@@ -41,8 +41,6 @@ while True:
 		print(f"The result of {num1} * {num2} is: {result}")
 		input("\nPress Enter to continue...")
 
-
 	if option == "1":
 		add()
-
-		
+    
