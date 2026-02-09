@@ -1,4 +1,4 @@
-def add():
+def add_add():
 	print("\n" * 500)
 	print("you choose addition\n\n")
 	num1 = input("Please enter first number: ")
