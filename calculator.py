@@ -9,12 +9,6 @@ def add():
 	input("\nPress Enter to continue...")
 
 
-
-
-
-
-
-
 while True:
 	print("\n" * 500)
 	print("=========SIMPLE CALCULATOR PROGRAM=========\n")
@@ -30,8 +24,21 @@ while True:
 		exit(0)
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 	elif option == "1":
 		add()
-
-
-
