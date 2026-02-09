@@ -11,4 +11,12 @@ while True:
 	if option == "0":
 		print("\n" * 500)
 		exit(0)
-		
+	
+	if option == "2":
+		print("\n" * 500)
+		print("=========SUBTRACTION=========\n")
+		num1 = float(input("Enter the first number: "))
+		num2 = float(input("Enter the second number: "))
+		result = num1 - num2
+		print(f"The result of {num1} - {num2} is: {result}")
+		input("\nPress Enter to continue...")
