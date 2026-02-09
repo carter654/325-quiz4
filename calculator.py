@@ -20,3 +20,12 @@ while True:
 		result = num1 - num2
 		print(f"The result of {num1} - {num2} is: {result}")
 		input("\nPress Enter to continue...")
+
+	if option == "3":
+		print("\n" * 500)
+		print("=========MULTIPLICATION=========\n")
+		num1 = float(input("Enter the first number: "))
+		num2 = float(input("Enter the second number: "))
+		result = num1 * num2
+		print(f"The result of {num1} * {num2} is: {result}")
+		input("\nPress Enter to continue...")
